@@ -1,0 +1,88 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #dbdbd9;
+    margin: 0 auto;
+}
+header{
+    background-image:url(../images/accueil.jpg);
+    
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+    
+}
+h1.titre,h2.slogan {
+    color: red;
+}
+
+
+
+div.plante-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+div.plante-item{
+    color:#373737;
+    height: 300px;
+    
+    width:300;
+    margin: 10px;
+    position: relative;
+    background-repeat: no-repeat;
+  
+  
+}
+
+
+
+.fruits{ background: url(../images/fruitiers.jpg);}
+.haies{ background: url(../images/haies.jpg);}
+.lavande{background: url(../images/lavande.jpg);}
+.palmiers{background: url(../images/palmiers.jpg);}
+
+.overlay{
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+}
+
+span.nom{
+    color:#373737;
+    background-color: white;
+    position: relative;
+    top:20px;
+    float: right;
+    padding: 12px;
+    font-size: 22px;
+}
+span.prix{
+    position: relative;
+    color: white;
+    background-color: yellowgreen;
+    padding: 12px;
+    font-size: 25px;
+    top: 220px;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+
+
+
+
+
